@@ -1,0 +1,16 @@
+window.alert("sometext");
+alert("I am an alert box!");
+window.confirm("sometext");
+if (confirm("Press a button!")) {
+  txt = "You pressed OK!";
+} else {
+  txt = "You pressed Cancel!";
+}
+window.prompt("sometext","defaultText");
+let person = prompt("Please enter your name", "Harry Potter");
+let text;
+if (person == null || person == "") {
+  text = "User cancelled the prompt.";
+} else {
+  text = "Hello " + person + "! How are you today?";
+}
