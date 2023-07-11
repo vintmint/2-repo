@@ -1,3 +1,4 @@
+#main code
 window.alert("sometext");
 alert("I am an alert box!");
 window.confirm("sometext");
