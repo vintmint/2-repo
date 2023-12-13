@@ -1,5 +1,5 @@
 #main code
-window.alert("sometexthere");
+window.alert("sometext");
 alert("I am an alert box!");
 window.confirm("sometext");
 if (confirm("Press a button!")) {
